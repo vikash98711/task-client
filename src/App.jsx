@@ -8,6 +8,7 @@ import Carriercouncelling from './Components/Carriercouncelling';
 import ThreeVideoPart from './Components/ThreeVideoPart';
 import AboutUs from './Components/AboutUs';
 import StudentsGallery from './Components/studentsGallery';
+
 import PeopleSay from './Components/PeopleSay';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   <CardsHappystudent/>
   <ThreeVideoPart/>
   <AboutUs/>
-  <StudentsGallery/>
+  <StudentsGallery />
   <PeopleSay/>
 
     </>

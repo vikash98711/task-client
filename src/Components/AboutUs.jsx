@@ -152,8 +152,8 @@ const AboutUs = () => {
         </div>
   
       </div>
-  
-      <div className="row mt-3">
+  <div className="container">
+          <div className="row mt-3"  style={{ marginLeft: '0 !important' }}>
   <div className="col-lg-4 col-md-6 mt-3">
   <Card >
       <Card.Img variant="top" src="https://educationoracle.vercel.app/assets/img/NewGallery1.jpg" />
@@ -173,6 +173,7 @@ const AboutUs = () => {
     </Card>
   </div>
 
+</div>
 </div>
 
 <div className="col-lg-12 mt-5">

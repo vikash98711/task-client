@@ -7,7 +7,7 @@ import CardsHappystudent from './Components/CardsHappystudent';
 import Carriercouncelling from './Components/Carriercouncelling';
 import ThreeVideoPart from './Components/ThreeVideoPart';
 import AboutUs from './Components/AboutUs';
-import StudentsGallery from './Components/studentsGallery';
+import StudentsGallery from './Components/StudentsGallery';
 
 import PeopleSay from './Components/PeopleSay';
 

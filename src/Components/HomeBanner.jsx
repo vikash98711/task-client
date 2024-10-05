@@ -6,7 +6,7 @@ import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 const HomeBanner = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const handlePlayPause = () => {
+  const handlePlayPause = () => {   
     setIsPlaying(!isPlaying);
   };
 

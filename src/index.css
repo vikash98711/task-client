@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+   --Dark-green : #008484;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Inter", system-ui;
+}
+
+.font28px {
+  font-size: 28px;
+}
+.Navbar-wrapper{
+  background-color: var(--Dark-green) !important;
+  color: white !important;
+}
+
+.ApplyNow {
+  color: #22396a;
+  border: 1px solid;
+}
+button.btn.btn-outline-success {
+ background-color:  #4ad44a;;
+ color: black;
+ font-weight: 600;
+
+
+
+  padding: 5px 111px;
+}
+.Wrapper-Home-banner{
+  position: relative;
+  border-top: 3px solid #00466b;
+width: 100%;
+height: 80vh;
+
+background-image: linear-gradient( rgb(22 57 76 ), rgb(0 0 0 / 85%)), url(https://educationoracle.vercel.app/assets/img/one.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: (-50% -50%);
+}
+.text-wrapper h1 , p{
+  color: white;
+}
+
+
+section.middle-bottom-wrapper.text-center {
+  position: relative;
+  /* margin-bottom: 114px; */
+  bottom: 146px;
+}
+
+.Section-AboutUs {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-primary2 {
+  background-color: #22396A !important;
+}
+.subtitle-svg {
+  width: 50px;
+  fill: #f57005;
+}
+.Home-page-ul-wrapper {
+  background: #004f76;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+.Home-page-ul-wrapper{
+list-style: none;
+}
+
+.Home-page-ul-wrapper li {
+  margin: 5px 0;
+  font-weight: 600 !important;
+}
+
+.RightWapperAboutUS p{
+  color: black;
+}
+
+.btn-hover.color-2 {
+  background-color: #ef0000;
+}
+.btn-hover {
+  text-align: center;
+  border-radius: 5px;
+  transition: all .4s ease-in-out;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid #ef0000;
+}
+
+.fact-one__item {
+  margin: 0px 13px;
+  background-color: #22396a;
+  color: white;
+  padding: 14px;
+  border: 4px solid #0056ff;
+  
+}
+.CareerCounsellingStrip-wrapper {
+  width: 100%;
+  height: 100%;
+  /* background-color: #4AD44A; */
+}
+
+h3.fact-one__title {
+  font-size: 20px;
+}
+
+
+/*Profile Card 3*/
+.profile-card-3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 368px;
+  border: none;
+}
+
+.profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profile-card-3 .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  float: left;
+  background: #efefef;
+  height: 50%;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+
+.profile-card-3 .card-content::before {
+  content: "";
+  background: #efefef;
+  width: 120%;
+  height: 100%;
+  left: 11px;
+  bottom: 51px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-13deg);
+}
+
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.profile-card-3 i {
+  display: inline-block;
+  font-size: 16px;
+  color: #ff7700 !important;
+  text-align: center;
+  border: 1px solid #ff7700;
+  width: 33px;
+  height: 34px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: 0.5 ease-in;
+}
+
+.profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.profile-card-3 .icon-block a {
+  text-decoration: none;
+}
+
+.profile-card-3 i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (min-width:200px) and (max-width:616px) {
+  .react-player-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  section.middle-bottom-wrapper.text-center {
+    position: relative;
+    /* margin-bottom: 114px; */
+    bottom: 60px;
+}
+  
+}
+@media (min-width:200px) and (max-width:968px) {
+  .fact-one__item{
+    margin: 10px 13px;
+  }
+  
+}

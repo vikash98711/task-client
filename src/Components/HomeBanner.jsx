@@ -15,11 +15,11 @@ const HomeBanner = () => {
       <section className='Wrapper-Home-banner'>
         <div className="container">
           <div className="text-wrapper">
-            <h1>Welcome To</h1>
+            <h1>Welcome To Best <span style={{color:'orange'}}> Institude</span></h1>
             <p>
               Oracle International Language Institute - Delhi's Premier Language Learning Center
               <br />
-              Best training institute for IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic.
+              Best training institute for<span style={{color:'orange'}}> IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic.</span>
             </p>
           </div>
         </div>
@@ -31,8 +31,8 @@ const HomeBanner = () => {
             url="https://www.youtube.com/watch?v=BF83GlBo-d0"
             playing={isPlaying}
             controls
-            width="600px"
-            height="400px"
+            width="1000px"
+            height="500px"
             style={{ borderRadius: '10px' }}
             className='react-player-wrapper'
           />

@@ -101,7 +101,7 @@ const HeaderNav = () => {
       </Navbar>
 
       {/* Modal */}
-      <Modal show={showModal} onHide={handleCloseModal} centered>
+      <Modal show={showModal} onHide={handleCloseModal} centered style={{zIndex:'99999999'}}>
         <Modal.Header closeButton>
           <Modal.Title>Enroll Now</Modal.Title>
         </Modal.Header>
